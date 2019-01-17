@@ -33,6 +33,5 @@ out_file_path = open(out_path, 'wb')
 
 pdf_writer.write(out_file_path)
 
-# Quit, as this will be ran primarily in terminal as an executable
-# by my non-programmer wife
+# Quit, because this will be ran primarily in terminal as an executable
 quit()
