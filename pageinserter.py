@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/env python3
 #
 # This script takes a PDF file and inserts a blank page between every
 # page in the PDF. Output is written to the containing directory of
