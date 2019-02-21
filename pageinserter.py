@@ -5,6 +5,7 @@
 # the original PDF.
 
 import os
+import sys
 
 from PyPDF2 import PdfFileReader, PdfFileWriter
 import tkinter as tk
@@ -33,5 +34,6 @@ out_file_path = open(out_path, 'wb')
 
 pdf_writer.write(out_file_path)
 
-# Quit, because this will be ran primarily in terminal as an executable
-quit()
+out_file_path.close()
+
+sys.exit()
